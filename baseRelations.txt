@@ -1,0 +1,7 @@
+Users **
+Hairdressers (id (pk), fname, lname)
+Services (id (pk), title, description, duration, price)
+OfferedServices (serviceId (fk,pk), hairdresserId (fk,pk))
+Customers (id (pk), fname, lname, email)
+Bookings (id (pk), hairdresserId(fk), customerId (fk), dateAndTime, totalCost)
+BookedServices (bookingId (fk, pk), serviceId (fk, pk))
